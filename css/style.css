@@ -8,7 +8,7 @@ body{
 }
 header{
     background-color: rgba(87, 173, 202, 0.705);
-    height: 363px;
+    height: 382px;
 }
 /* classi di layout  */
 .container{
@@ -31,16 +31,18 @@ header{
     width: 45%;
 }
 .col-60{
-    width: 65%;
-    background-color: rgb(215, 118, 223);
-    height: 250px;
-    border-radius: 4px;
-    border: 1px dashed black;
+    width: 55%;
 }
 /* classi di stile  */
 .content{
     padding: 5px 5px;
     background-color: rgb(207, 163, 53);
+    border: 1px dashed black;
+}
+.content-sm{
+    background-color: rgb(215, 118, 223);
+    height: 270px;
+    border-radius: 4px;
     border: 1px dashed black;
 }
 #main-menu{
@@ -56,8 +58,8 @@ header{
 }
 .bg-darkblue{
     background-color: rgb(13, 13, 155);
-    padding: 30px 0px;
+    padding: 30px 5px;
 }
-.container .row{
-    padding: 10px 5px;
+.py-10{
+    padding: 10px 0px;
 }

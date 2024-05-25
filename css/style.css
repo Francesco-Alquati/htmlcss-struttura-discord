@@ -62,6 +62,17 @@ header{
 .content-footer{
     height: 400px;
 }
+.content-footer-sm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(98, 248, 183);
+}
+.content-ggg{
+    background-color: pink;
+    border: 1px dashed black;
+}
 #main-menu{
     list-style-type: none;
     text-align: center;
@@ -87,8 +98,6 @@ header{
 }
 .bg-darkgrey{
     background-color: rgb(35, 34, 34);
-    padding: 5px 0px 25px 0px;
-    margin-bottom: 1px;
 }
 .py-10{
     padding: 10px 0px;
@@ -100,15 +109,28 @@ header{
     background-color: pink;
 }
 .darkpink{
-    background-color: rgb(243, 122, 142);
+    background-color: rgb(225, 113, 113);
 }
 .watergreen{
-    background-color: rgb(71, 201, 190);
+    background-color: rgb(42, 157, 147);
+}
+.content-footer.darkpink{
+    border-radius: 5px;
+    border: 1px dashed black;
 }
 .content-footer.watergreen{
     border: 1px dashed white;
 }
-.content-footer.darkpink{
-    border: 1px dashed black;
-    border-radius: 5px;
+.bg-darkgrey:first-of-type{
+    padding: 5px 0px 25px 0px;
+    margin-bottom: 1px;
+}
+.bg-darkgrey:last-of-type{
+    padding: 15px 0px 0px 0px;
+}
+button{
+    padding: 0px 5px;
+    text-align: center;
+    background-color: pink;
+    border: none;
 }

@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: rgba(87, 173, 202, 0.705);
+}
+/* classi di layout  */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+    justify-content: center;
+}
+.col-15{
+    width: 15%;
+}
+.col-45{
+    width: 45%;
+}
+/* classi di stile  */
+.content{
+    padding: 5px 5px;
+    background-color: rgb(207, 163, 53);
+    border: 1px dashed black;
+}
+#main-menu{
+    list-style-type: none;
+    text-align: center;
+}
+#main-menu li{
+    display: inline-block;
+}
+#login{
+    text-align: right;
+}
+
+
